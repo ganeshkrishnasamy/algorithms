@@ -12,7 +12,7 @@ import math
 def jump_search(ls, x):
     
     n = len(ls)
-#   Finding block size to be jumped
+#   Finding block size to be jumped. The best step size is m = √n
     step = int(math.floor(math.sqrt(n)))
     print "Step Size: %d" %(step)
     prev=0
